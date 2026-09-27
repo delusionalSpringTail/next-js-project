@@ -1,9 +1,11 @@
-
+import { buttonVariants } from "@/components/ui/button";
+import Navbar from "@/components/web/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      hello from the index page
+      ,<Navbar></Navbar>
     </div>
   );
 }
